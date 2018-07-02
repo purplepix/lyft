@@ -1,7 +1,14 @@
 * {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 body {
@@ -104,7 +111,7 @@ form fieldset {
 }
 
 form h3 {
-  margin: 25px 0 0 0;
+  margin: 23px 0 0 0;
   letter-spacing: -0.1px;
 }
 
@@ -134,16 +141,16 @@ fieldset button {
   background-color: #FF00BF;
   border: none;
   border-radius: 7px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   font-size: 14px;
   font-weight: 200;
-  margin: 15px 0 19px 0;
+  margin: 15px 0 18px 0;
   cursor: pointer;
 }
 
 fieldset a {
   color: #728099;
-  margin-left: 15px;
+  margin-left: 17px;
   letter-spacing: -0.3px;
 }
 
@@ -310,7 +317,7 @@ footer h4 a:hover {
   align-items: center;
   justify-content: space-between;
   width: 15.5%;
-  margin: 32px 0 10px 0;
+  margin: 28px 0 9px 0;
 }
 
 .social-media a {
